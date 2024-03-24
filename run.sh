@@ -14,6 +14,7 @@ cd ..
 # Diretório do back end
 cd backendDjango-main
 # Instalar dependências do back end (se houver)
+poetry add django djangorestframework djangorestframework_simplejwt django-cors-headers
 # Comando para iniciar o servidor do Django (por exemplo)
 python manage.py runserver 3000 &
 # Volte para o diretório raiz do projeto
